@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: #556B2F;
+            font-family: 'Bookman Old Style', serif;
+            color: white;
+        }
+        .portada {
+            /* https://mega.nz/file/7EV2BCSZ#wd2GRVVLjJGj8fYWK1yG2c5Q7DVfKjsPZqyPSgfTlsY*/
+            background-image: url(https://mega.nz/file/7EV2BCSZ#wd2GRVVLjJGj8fYWK1yG2c5Q7DVfKjsPZqyPSgfTlsY);
+            height: 500px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 50px;
+        }
+        .button {
+            background-color: #C0C0C0;
+            border: none;
+            color: black;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        .info {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="portada">
+        Peter Leupin - Meine Geschichten
+    </div>
+    <button class="button" onclick="mostrarInfo('autorInfo')">Informationen zum Autor</button>
+    <button class="button" onclick="mostrarInfo('zusammenfassung')">Zusammenfassung</button>
+    <button class="button" onclick="mostrarInfo('buchempfehlungen')">Buchempfehlungen</button>
+    <button class="button" onclick="mostrarInfo('buchkommentare')">Buchkommentare</button>
+    <a href="https://buchshop.bod.de/meine-geschichten-peter-leupin-9783756215768?fbclid=IwAR3bzNuIA8QF1cNi6J_cgH4numpsOPrjxLcpQ66tWS5a2i0gz3851MfAfP0" target="_blank"><button class="button">Wo kann man das Buch kaufen?</button></a>
+    <a href="https://www.lovelybooks.de/autor/Peter-Leupin/Meine-Geschichten-8072386921-w/?fbclid=IwAR3pnn5wTHzSGSMMpjNbNeXWdYNtX_swjIgWYgYHVPlkQCuOrZjTtgNmnZ0" target="_blank"><button class="button">Kontaktinformationen</button></a>
+
+    <div id="autorInfo" class="info">
+        <h2>Peter Leupin</h2>
+        <p>Peter Leupin, Schweizer Nationalität, aber lateinamerikanisches Herz. Vor mehr als 30 Jahren kam dieser unerschrockene Abenteurer wie jeder andere Europäer in der Hoffnung nach Bolivien, Amerika zu erobern und die Zivilisation zu bringen. Doch zu seiner Überraschung wurde er von den Gerüchen, Geschmäckern, Geräuschen und Farben dieser außergewöhnlichen Länder wie nie zuvor verzaubert . Er wollte gehen. Aber wie ein guter Abenteurer beschloss er, einen Teil der Magie dieser Länder mit seinen Landsleuten zu teilen, durch Schriften, in denen er vom Wunder des lateinamerikanischen Chaos erzählt, mit Festen und Bürgerkriegen oder Bürgerkriegen, die zu Festen werden, mit Protesten ohne Todesfälle und mysteriöse Todesfälle ohne Protest. Lassen Sie sich von der Wärme seiner Geschichten mitreißen und tauchen Sie ein in das Abenteuer, in dieser bereits bekannten Welt eine neue Welt zu entdecken.</p>
+    </div>
+    <div id="zusammenfassung" class="info">
+        <h2>Zusammenfassung</h2>
+        <p>Gedichte, Geschichten, Reime, Zeitungsartikel usw. Dieses Buch integriert zahlreiche Stile, die es dem Leser ermöglichen, in den Geist und die ozeanischen Augen eines Europäers einzutauchen, der seine Sicht auf das Leben in Lateinamerika erzählt. Kühle Nächte der Schlaflosigkeit und 45 Grad Hitze im Schatten, eine Luftfeuchtigkeit, die die Gedanken durch die Tempel schwirren lässt und eine Ruhe, die durch das Geigenspiel der Mücken oder durch Raketen, Protestrufe und Schüsse auf den Straßen unterbrochen wird. .</p>
+    </div>
+    <div id="buchempfehlungen" class="info">
+        <h2>Buchempfehlungen</h2>
+        <p> Rezension von Alberigo Tuccillo
+
+            Die Prosa Peter Leupins lässt sich nicht einordnen. Sie gehört keinem Genre an, erinnert formal zwar an vieles, was man kennt, erfüllt bald die Kriterien für die Kurzgeschichte, für die Glosse, für den Tagebucheintrag, verletzt diese Kriterien aber immer, ohne sie zu missachten. Leupin spielt: mit den Formen, den Gattungen, mit den Inhalten, mit den vermeintlichen Gewissheiten — die er zerstört und aufbaut, ohne jeweils zu verraten, ob er gerade am Aufbauen oder am Zerstören ist —, spielt mit der Sprache, mit den Sprachen, mit den Leserinnen und Lesern, blendet und führt zugleich hinters Licht. Und er hat Spaß dabei. Daraus macht er keinen Hehl, obwohl er manchmal doch vorgibt, seinen Spaß verhehlen zu wollen.
+            Meine erste Begegnung mit Peter Leupins Literatur weckt in mir eine Erinnerung an einen britischen Zauberkünstler, den ich meiner Jugend ein einziges Mal sah und bis zu dieser Lektüre vollkommen vergessen hatte: Der Zauberer, ein unscheinbarer, etwas schüchterner älterer Herr, drückte beim Betreten der Bühne vor allem zwei Dinge aus: Unsicherheit und zugleich eine rührende Zuversicht, irgendwie werde es schon klappen. Dann fängt er mit den üblichen Nummern an, die man erwartet, die man kennt und die dem stereotypen Bild eines Zauberers entsprechen. Er möchte wohl ein Kaninchen aus dem Zylinder holen. Aber da ist nichts zu machen. Es gelingt ihm nicht. Der Zauberstab aus hartem Material wird plötzlich weich wie eine gekochte Nudel. Er wühlt mit der Hand im Hut herum — es scheint nichts drin zu sein. Er wirft heimlich ein paar Karotten hinein — nichts! Er kehrt den Hut um und schüttelt ihn, aber nichts fällt heraus; nicht einmal die Karotten. Er gibt auf und möchte zum nächsten Zaubertrick übergehen. Aber jetzt hopst ein Kaninchen aus dem Hut. Und noch eins. Und noch eins. Der Zauberer tut, als wäre es ihm peinlich. Betreten packt er die fünf Kaninchen, die gar nicht Platz haben dürften, mit Mühe in den Zylinder zurück, immer wieder hopst eines wieder heraus, aber da flattern auch Tauben heraus…
+            Ähnliches macht Leupin mit der Erzählkunst. Ein Beispiel: Ein Ich-Erzähler, der in allen wesentlichen Zügen der Autor selbst ist, beschreibt einen Freund, den er als äußerst zwiespältig, widersprüchlich, diskrepant zeichnet: auf der einen Seite äußerst liebenswürdig, herzgewinnend, auf der andern Seite rücksichtslos, rüpelhaft. Leupin setzt virtuos seine ganze rührende narrative Unbedarftheit und Unzulänglichkeit ein. Und wir überragend klugen Leserinnen und Leser ahnen selbstverständlich schon sehr früh, dass der antithetische angebliche Freund in Wahrheit ein Hund ist. In der Tat wird von Zeile zu Zeile deutlicher, dass der Autor erst mit den letzten Worten der kurzen Erzählung die Katze aus dem Sack lassen will. So ist es schließlich auch. Aber unser Scharfsinn wird mit dem doch überraschenden Schluss nur teilweise belohnt: Der Hund ist nämlich vielleicht doch kein Hund, denn der Ich-Erzähler ist nicht der, den wir erwartet haben. — Und mit den letzten Worten verwandelt sich die Geschichte, die wir gelesen haben, in eine Geschichte, die uns zufällt, ohne dass wir sie gelesen haben.
+            Nun macht Peter Leupin daraus aber keine Technik, schon gar nicht eine Masche. Diesen Kunstgriff setzt er ein einziges Mal ein, denn er hat noch viel anderes auf Lager: Einen Serial-Killer, der weder aus Habgier, noch aus sexueller Triebhaftigkeit, sondern aus Güte, aus Empathie, aus Einfühlsamkeit, letztlich aus selbstloser Liebe tötet, die fürchterliche Gewalt eines achtzig Meter hohen Wasserfalls, die ein steuerloses kleines Boot samt Insassen zermalmen könnte wie eine Nuss unter einer Stiefelsohle und dennoch auf die Bootmannschaft seltsam beruhigend wirkt, offensichtlich Biografisches, das ebenso offensichtlich frei erfunden ist, und Fantastisches, Märchenhaftes, Science-Fiction-Artiges, die sich völlig überraschend plötzlich doch als autobiografisch Unverblümtes herausstellen, Freundschaften, die nicht trotz, sondern wegen ihrer grundsätzlichen und aussichtslosen Unverträglichkeit unzertrennlich werden…
+            Ich habe vielleicht schon zu viel verraten, denn ich möchte niemandem den Genuss verblassen, selbst in Leupins Texten den manchmal ergreifenden, manchmal erheiternden, manchmal ernüchternden Zwischentöne, die ich bestimmt noch nicht alle entdeckt habe, nachzuspüren. Doch Sorgen mache ich mir darüber nicht, denn — wie bereits gesagt — die eigenwilligen erzählerischen Miniaturen sind nicht mit einem einzigen Schlüssel aufzuschließen; man braucht dazu einen ganzen Schlüsselbund — und auch dann, wenn man zu jedem Textchen den passenden Schlüssel gefunden hat, findet man bei mehrmaligem Lesen und bei mehrmaligem Aufschließen immer etwas Neues vor.<p>
+     <div>      
+            Rezension von Cornelia Heynen-Igler</p>
+    <div>     
+
+            <div>Wechselspiele oder wider die Zuordnung<p>
+            
+            Das Förderliche an der Lebens- und Leseroutine ist zugleich das Hinderliche daran: die mit der Zeit gewonnene Fähigkeit, zuzuordnen, abzulegen und kurz zuvor noch ein Etikett auf die versorgungstechnisch einwandfreie Archivbox zu kleben. Alsdann es sich vortrefflich über das Wortgewordene reden lässt: dass ein Mensch, ein Umstand, ein Inhalt so und so sei, wovon man kraft seiner Erfahrung und seines durch die Gewohnheit errungenen Gespürs so unumstößlich überzeugt ist, da man in der hitzigen Debatte auch gern mit noch mehr Eigenschaftsworten um sich wirft. 
+            Und doch geschieht es immer wieder – ich konstatiere es nicht ohne ein Gefühl von Schadenfreude mir selbst gegenüber –, dass man in der aller komfortabelsten Routine plötzlich aufs Erfrischendste und Ersprießlichste irritiert wird: So ist es mir mit den Texten von Peter Leupin ergangen und ein bisschen auch mit ihm selbst. «Mit ihm selbst» meint, natürlich, mit meiner Vorstellung von ihm, diesem Peter Leupin, den ich über Facebook kennengelernt habe. Indes verleiten mich nicht nur seine – ja was? Kurzgeschichten, Betrachtungen, Kolumnen, Lebensberichte, Aphorismen – dazu, Mutmaßungen über die Persönlichkeit des Autors anzustellen, sondern auch seine Kommentare zu meinen eigenen Facebook-Geschichten.<p>
+            (Was, ich weiß, von der Literaturkritik gar nicht gern gesehen wird: das Spekulieren über die Autorenpersönlichkeit, die gemeine Leserin tut’s trotzdem gern und ausgiebig). 
+            Oft nämlich sind in besagten Kommentaren wiederum Erfahrungen und Erlebnisse dieses schweizstämmigen Autors verwoben, der seit langer Zeit mit seiner Familie in Südamerika lebt, was die Eigentümlichkeit und Originalität seiner Betrachtungsweise jedoch nur in Spuren erklärt, oder vielleicht auch gar nicht. Unfassbar, dachte ich beim Lesen der Texte in diesem Buch, was für eine Fülle an Erlebtem, Gedachtem, Empfundenem, und das alles in sprachlich wohlgefälligen und überaus appetitlichen Häppchen dargereicht. 
+            Indes, noch während man sich in Erwartung des Erwarteten in das aparte, so ganz und gar unschweizerisch üppig anmutende Universum des Peter Leupin hineinziehen lässt, hält man auf einmal inne: Da ist eine unvermutete Wendung, ein querer Gedanke, ein wie aus dem Takt geratenes Ende, irgendetwas Atonales oder zumindest ganz und gar Verwunderliches, was einen die ganze Geschichte noch einmal von vorn lesen lässt. Und doch ist man sich nie ganz sicher, ob es sich um einen raffinierten Autorentrick handelt oder um eine clevere Finte oder viel eher um eine eigenwillige Art des Erlebens und Verstehens, etwas, was Teil dieser so farbigen, blühenden Welt des Peter Leupin ist, die sich auf der nächsten Seite schon karg und kühl und nüchtern präsentieren kann.<p>
+            Oh, die Gefahr der Gewöhnung besteht nicht; und doch folgt man dem Autor offenen Auges durch sein Universum, lässt sich auf seine kühnen oder übermütigen Gedanken- und Gefühlsspiele ein, lacht zuweilen unvermittelt auf, ist zuweilen jäh ergriffen, betroffen, entsetzt; wird zuweilen von Melancholie mit-übermannt. 
+            Und was tut die solcherart bewegte Leserin? Oder eher – was tut sie nicht? Sie lässt die zu Archivboxen umfunktionierten Schuhkartons hübsch dort oben im Estrich stehen, nicht nur, weil ihr schwant, dass kein Etikett weder auf die Texte des Peter Leupin noch auf seine mutmaßliche Persönlichkeit passt, mit der sie sich ja nur schon aus literaturkritischen Gründen sowieso nicht näher und schon gar nicht gründlich befassen sollte.  
+            Nein, die Leserin will sich ganz und gar vereinnahmen lassen von dieser Welt, die ihr in Zügen so vertraut vorkommt und dann auf einmal wieder nicht, was sie sich umso tiefer in den Erzählsog hineinbegeben lässt. 
+            Und genau dort, im Mittendrin, will sie, die Leserin, verbleiben und versinken, ohne zu wissen, woher und wohin: Viel Freude beim Lesen, beim Eintauchen ins ureigene Universum des Peter Leupin.<p></p>
+         
+    <div>      
+
+            <div>Cornelia Heynen-Igler
+            Hier steckt geradezu alles drin, Lebensgeschichte, Atmosphärisches, Weltanschauliches, schöne literarische Vignetten. Das macht die spezielle Färbung dieses Buches aus.<p></p>
+
+            Prof. Dr. phil. Alfred Bodenheimer</p>
+    </div>
+    <div id="buchkommentare" class="info">
+        <h2>Buchkommentare</h2>
+        <p>Geben Sie Ihren Kommentar zum Buch ein...</p>
+    </div>
+
+    <script>
+        function mostrarInfo(id) {
+            var x = document.getElementById(id);
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
+
+
